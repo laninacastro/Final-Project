@@ -52,7 +52,7 @@ nav a:hover {
     width: 100%;
     }
 
-.classroom{
+.ODTraining{
     position: absolute;
     bottom: 470px;
     left: 5%;
@@ -62,17 +62,22 @@ nav a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 650px;
-}
+form {
+    background-color:#98b9ca;
+    margin-top: 50px;
+    color:#121213;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+
 
 .traininggrid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto ;
     grid-gap: 20px;
     grid-row-gap: 50px;
-    
 } 
 
 .footergrid {
