@@ -54,8 +54,8 @@ nav a:hover {
 
 .slogan{
     position: absolute;
-    bottom: 460px;
-    left: 40%;
+    bottom: 470px;
+    left: 5%;
     font-size: 50px;
     font-weight: bold;
     color: rgb(20, 58, 88);
@@ -65,18 +65,48 @@ nav a:hover {
 .maingrid {
     display: grid;
     grid-template-columns: 900px 590px;
-    grid-template-rows: 800px 600px;
     column-gap: 15pt;
-    row-gap: 15px;
+    margin-top: 15px;
+    grid-row-gap: 25px;
+}
+
+.footergrid {
+    display: grid;
+    padding-top: 20px;
 }
 
 .one {
-   background-color:#9BD0EB;
+    background-color:white;
+    border: #475F6B;
+    border-style: groove;
+    height: 500PX;
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
-.two {
-    background-color:#3E88AD;
+.two { 
+    background-color:white;
+    border: #475F6B;
+    border-style: groove;
+    height: 500PX;
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
  }
+
+ .three{
+    background-color:white;
+    border: #475F6B;
+    border-style: groove;
+    height: 200PX;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    grid-column: 1 /span 2;
+}
 
  .five{
     background-color:#6e91a3;
@@ -91,7 +121,7 @@ nav a:hover {
    height: 75px;
    grid-column: 1 /span 2;
    width: 100%;
-   margin: 100px 0 0 0;
+   margin:-10px 0 0 0;
    padding: 0pt;
    text-align: center;
    font-family: 'Roboto', sans-serif;

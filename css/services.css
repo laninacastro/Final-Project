@@ -83,7 +83,6 @@ h1 {
    padding: 25px;
    text-align: left;
    font-family: 'Montserrat', sans-serif;
- 
    font-weight: bold;
 }
 
@@ -99,40 +98,21 @@ h1 {
 }
 
 .two {
-
     background-color:white;
     border: #475F6B;
     border-style: groove;
     margin-top: 10px;
     padding: 25px;
     text-align: left;
-}
-
-.three {
-    background-color:white;
-    border: #475F6B;
-    border-style: groove;
-    margin-top: 10px;
-    padding: 25px;
-    text-align: left;
-    grid-column: 1 / span 2;
 }
 
 .five{
     background-color:#6e91a3;
-    height: 50px;
-    grid-column: 1 /span 2;
-    width: 100%;
-    margin: 0 0 -20px 0px;
-    padding: 0pt;
 }
 .six{
    background-color:#587a8b;
    height: 75px;
-   grid-column: 1 /span 2;
    width: 100%;
-   margin: -15px 0px 0 0 0;
-   padding: 0pt;
    text-align: center;
    font-family: 'Roboto', sans-serif;
 }

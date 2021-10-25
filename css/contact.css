@@ -68,6 +68,11 @@ nav a:hover {
     grid-template-rows:  500px;
 
 }
+.footergrid {
+    display: grid;
+}
+
+
 
 .one {
    background-color:#9BD0EB;
@@ -75,6 +80,7 @@ nav a:hover {
    display: block;
     font-style: normal;
     font-size: 15px;
+    margin-bottom: px;
 
 }
 
