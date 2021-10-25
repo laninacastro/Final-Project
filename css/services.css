@@ -67,50 +67,48 @@ h1 {
     margin-left: 650px;
 }
 
-.maingrid {
+.traininggrid {
     display: grid;
-    grid-template-columns: 735px 735px;
-    grid-template-rows: 500px 500px;
-    column-gap: 20pt;
-    row-gap: 20px;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    grid-row-gap: 50px;
+    
 } 
 
-.one {
-   background-color:white;
-   border: #475F6B;
-   border-style: groove;
+.footergrid {
+    display: grid;
+    padding-top: 20px;
+}
+
+.video {
    margin-top: 10px;
-   padding: 25px;
+   padding: 5px;
    text-align: left;
    font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
    font-weight: bold;
 }
 
-.one h4{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-}
-
-.one h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-    text-align: center;
-}
-
-.two {
-    background-color:white;
+ .description {
+    background-color:#c8d8e0;
     border: #475F6B;
     border-style: groove;
-    margin-top: 10px;
-    padding: 25px;
     text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
 }
 
 .five{
-    background-color:#6e91a3;
+    background-color:#799eb1;
+    height: 45px;
 }
 .six{
-   background-color:#587a8b;
+   background-color:#5f8294;
    height: 75px;
    width: 100%;
    text-align: center;
