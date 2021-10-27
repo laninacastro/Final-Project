@@ -1,44 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
 
-
-.backgroundimage{
-    position: relative;
+body {
+    margin: 0;
+    padding: 0;
 }
-
-.backgroundimage img{
-    height: 50%;
-    width: 100%;
-    opacity: .8;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}    
-.maintext {
-    position: absolute;
-    top: 150px;
-    right: 100px;
-    background-color: rgba(102, 121, 156, 0.575);
-    color: rgb(8, 8, 8);
-    padding: 50px 50px 50px 50px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    font-weight: lighter;
-    line-height: 1.5;
-}
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-}
-
-h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-}
-
-
 nav {
     width: 100%;
-    height: 90px;
+    height: 80px;
     background: #ffffff; 
 }
 
@@ -60,15 +28,15 @@ li {
 nav a {
     display: block;
     padding: 30px 0px;
-    margin-left: 250px;
+    margin-left: 150px;
     color:#475F6B;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
     text-decoration:none;
 }
 
 nav a:hover {
-    background: #a7b2b4;
+    background: #AEB5BF;
     transition: 0.5s;
 }
 
@@ -78,34 +46,67 @@ nav a:hover {
 
 .heroimage img{
     margin: 15px 0px 0px 0px;
-    height: 200px;
+    height: 125px;
     width: 100%;
     }
 
-.slogan{
+.tolife{
     position: absolute;
-    bottom: 470px;
+    bottom: 375px;
     left: 5%;
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: lighter;
     color: rgb(20, 58, 88);
     font-family: 'Montserrat', sans-serif;
 }
 
+.backgroundimage{
+    position: relative;
+}
+
+.backgroundimage img{
+    height: 50%;
+    width: 100%;
+    opacity: .7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+.maintext {
+    position: absolute;
+    height: 600PX;
+    margin-top: 5px;
+    text-align: left;
+    top: 70px;
+    right: 100px;
+    background-color: rgba(102, 121, 156, 0.575);
+    color: rgb(8, 8, 8);
+    padding: 40px 40px 40px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.maintext h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
 .footergrid {
     display: grid;
-    padding-top: 20px;
 }
-
-.one {
-    border-style: groove;
-    height: 500PX;
-    margin-top: 10px;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-}
-
 
  .five{
     background-color:#6e91a3;

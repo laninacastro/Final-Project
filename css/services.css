@@ -3,18 +3,17 @@
 body {
     margin: 0;
     padding: 5px;
-    background: ;
 }
 
 nav {
     width: 100%;
-    height: 90px;
+    height: 80px;
     background: #ffffff; 
 }
 
 ul {
     list-style-type: none;
-    margin:0 0 0 150px;
+    margin:0 0 0 75px;
     padding: 0;
   }
 
@@ -30,15 +29,15 @@ li {
 nav a {
     display: block;
     padding: 30px 0px;
-    margin-left: 250px;
+    margin-left: 150px;
     color:#475F6B;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
     text-decoration:none;
 }
 
 nav a:hover {
-    background: #a7b2b4;
+    background: #dbe0e0;
     transition: 0.5s;
 }
 
@@ -48,28 +47,40 @@ nav a:hover {
 
 .heroimage img{
     margin: 15px 0px 0px 0px;
-    height: 200px;
+    height: 150px;
     width: 100%;
     }
 
 .ODTraining{
     position: absolute;
-    bottom: 470px;
+    bottom: 350px;
     left: 5%;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: rgb(20, 58, 88);
     font-family: 'Montserrat', sans-serif;
 }
 
-form {
+.loginform {
     background-color:#98b9ca;
+}
+
+form {
     margin-top: 50px;
+    margin-left: 30%;
     color:#121213;
     padding: 16px 20px;
     border: none;
     cursor: pointer;
-    opacity: 0.9;
+  }
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: -90px;
+    margin-left: 35px;
+    padding-top: 15px;
   }
 
 
@@ -85,13 +96,14 @@ form {
     padding-top: 20px;
 }
 
-.video {
+.ytvideo {
    margin-top: 10px;
    padding: 5px;
+   margin-left: 50px;
    text-align: left;
    font-family: 'Montserrat', sans-serif;
    font-size: 25px;
-   font-weight: bold;
+   font-weight: lighter;
 }
 
  .description {

@@ -2,13 +2,12 @@
 
 body {
     margin: 0;
-    padding: 5px;
-    background: ;
+    padding: 0;
 }
 
 nav {
     width: 100%;
-    height: 90px;
+    height: 80px;
     background: #ffffff; 
 }
 
@@ -30,10 +29,10 @@ li {
 nav a {
     display: block;
     padding: 30px 0px;
-    margin-left: 250px;
-    color:#475F6B;
+    margin-left: 155px;
+    color: black;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
     text-decoration:none;
 }
 
@@ -48,65 +47,72 @@ nav a:hover {
 
 .heroimage img{
     margin: 15px 0px 0px 0px;
-    height: 200px;
+    height: 125px;
     width: 100%;
     }
 
 .trainingsolutions{
     position: absolute;
-    bottom: 470px;
-    left: 25%;
-    font-size: 50px;
-    font-weight: bold;
-    color: #17384d;
+    bottom: 375px;
+    left: 5%;
+    font-size: 40px;
+    font-weight: lighter;
+    color: black;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .maingrid {
     display: grid;
-    grid-template-columns: 800px 500px;
-    grid-template-rows: 500px 500px;
-    justify-content:space-evenly;
-    column-gap: 10pt;
+    grid-template-columns: 700px 500px;
+    grid-template-rows: 500px 10px;
     row-gap: 10px;
+    column-gap: 10px;
+    justify-content:space-evenly;
 }
 
-.one {
-    padding: 25px;
-    background-color:white;
-    border: #475F6B;
-    border-style: groove;
-    text-align: left;
+.one img{
+    opacity: .7;
+    height: 100%;
+    width: 100%;
+}
+
+.one h2 {
+    background-color: #080808;
     font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    width: 100%;
+    margin-top: -485px;
+    font-size: 25px;
+    padding: 15px;
 }
 
 .two {
-    background-color:white;
-    border: #475F6B;
-    border-style: groove;
+    width: 100%;
     text-align: left;
+    margin-top: 65px;
+    margin-bottom: 45px;
     font-family: 'Montserrat', sans-serif;
+    background: #475F6B;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    padding: 10px;
  }
+
+.two li{
+    margin-left: 10px;
+    padding: 10px;
+}
 
  .three {
-    background-color:white;
-    border: #475F6B;
-    border-style: groove;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
- }
-
- .four {
-    background-color:white;
-    border: #475F6B;
-    border-style: groove;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    padding: 10px;
  }
 
  .footergrid {
     display: grid;
-    padding-top: 20px;
 }
  .five{
     background-color:#6e91a3;
