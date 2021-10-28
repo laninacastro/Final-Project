@@ -41,34 +41,13 @@ nav a:hover {
     transition: 0.5s;
 }
 
-.heroimage{
-    box-shadow: 10px 10px 5px rgb(105, 105, 105);
-}
-
-.heroimage img{
-    margin: 15px 0px 0px 0px;
-    height: 125px;
-    width: 100%;
-    }
-
-.trainingsolutions{
-    position: absolute;
-    bottom: 375px;
-    left: 5%;
-    font-size: 40px;
-    font-weight: lighter;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-
-}
-
 .maingrid {
     display: grid;
-    grid-template-columns: 700px 500px;
+    grid-template-columns: 700px 560px;
     grid-template-rows: 500px 10px;
     row-gap: 10px;
     column-gap: 10px;
-    justify-content:space-evenly;
+    padding: 5px;
 }
 
 .one img{
@@ -81,16 +60,16 @@ nav a:hover {
     background-color: #080808;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    margin-top: -485px;
+    margin-top: -505px;
     font-size: 25px;
-    padding: 15px;
+    padding: 5px;
 }
 
 .two {
     width: 100%;
     text-align: left;
-    margin-top: 65px;
-    margin-bottom: 45px;
+    margin-top: 50px;
+    margin-bottom: 25px;
     font-family: 'Montserrat', sans-serif;
     background: #475F6B;
     font-family: 'Montserrat', sans-serif;

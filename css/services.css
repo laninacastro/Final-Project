@@ -52,7 +52,7 @@ nav a:hover {
 
 .ODTraining{
     position: absolute;
-    bottom: 410px;
+    bottom: 550px;
     left: 1%;
     font-size: 40px;
     font-weight: lighter;
@@ -84,6 +84,7 @@ form {
 
 .traininggrid {
     display: grid;
+    background-color:#edf6fa;
     grid-template-columns: auto auto ;
 } 
 

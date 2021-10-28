@@ -52,7 +52,7 @@ nav a:hover {
 
 .intouch{
     position: absolute;
-    bottom: 410px;
+    bottom: 550px;
     left: 1%;
     font-size: 40px;
     font-weight: lighter;
@@ -63,7 +63,7 @@ nav a:hover {
 h1 {
     margin-top: 40px;
     background-color:#98b9ca;
-    padding: 5px;
+    padding: 10px;
     font-size: 20px;
     font-weight: lighter;
     color: black;
