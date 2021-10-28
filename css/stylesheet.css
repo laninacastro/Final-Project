@@ -29,7 +29,7 @@ li {
 nav a {
     display: block;
     padding: 30px 0px;
-    margin-left: 155px;
+    margin-left: 250px;
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
@@ -43,11 +43,11 @@ nav a:hover {
 
 .maingrid {
     display: grid;
-    grid-template-columns: 700px 560px;
-    grid-template-rows: 500px 10px;
+    grid-template-columns: 1000px 535px;
+    grid-template-rows: 650px 20px;
     row-gap: 10px;
-    column-gap: 10px;
-    padding: 5px;
+    column-gap: 15px;
+    padding: 15px;
 }
 
 .one img{
@@ -60,7 +60,7 @@ nav a:hover {
     background-color: #080808;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    margin-top: -505px;
+    margin-top: -655px;
     font-size: 25px;
     padding: 5px;
 }
@@ -71,6 +71,7 @@ nav a:hover {
     margin-top: 50px;
     margin-bottom: 25px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     background: #475F6B;
     color: #ffffff;
     padding: 20px;
@@ -87,11 +88,13 @@ p{
 }
 
  .three {
-    text-align: left;
+    text-align: center;
+    margin-top: -30px;
     font-style: oblique;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    height: 50px;
+    height: 45px;
     padding: 15px;
  }
 

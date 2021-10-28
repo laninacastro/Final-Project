@@ -28,7 +28,7 @@ li {
 nav a {
     display: block;
     padding: 30px 0px;
-    margin-left: 155px;
+    margin-left: 250px;
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
@@ -48,7 +48,7 @@ nav a:hover {
 
 .ODTraining{
     position: absolute;
-    bottom: 555px;
+    bottom: 725px;
     left: 1%;
     font-size: 40px;
     font-weight: lighter;

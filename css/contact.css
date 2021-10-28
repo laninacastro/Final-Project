@@ -28,7 +28,7 @@ li {
 nav a {
     display: block;
     padding: 30px 0px;
-    margin-left: 155px;
+    margin-left: 250px;
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
@@ -48,7 +48,7 @@ nav a:hover {
 
 .intouch{
     position: absolute;
-    bottom: 550px;
+    bottom: 725px;
     left: 1%;
     font-size: 40px;
     font-weight: lighter;
@@ -68,7 +68,8 @@ h1 {
 
 .maingrid {
     display: grid;
-    grid-template-columns: 585px 600px;
+    padding: 45px;
+    grid-template-columns: 600px 600px;
     grid-gap: 10px;    
     justify-content:space-evenly;
 }
