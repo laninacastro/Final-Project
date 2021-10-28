@@ -28,8 +28,8 @@ li {
 nav a {
     display: block;
     padding: 30px 0px;
-    margin-left: 150px;
-    color:#475F6B;
+    margin-left: 155px;
+    color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
     text-decoration:none;
@@ -51,12 +51,13 @@ nav a:hover {
     }
 
 .tolife{
-    position: absolute;
-    bottom: 375px;
-    left: 5%;
+    background-color:#475F6B;
+    padding: 5px;
+}
+h1 {
+    margin-left: 5px;
     font-size: 40px;
-    font-weight: lighter;
-    color: rgb(20, 58, 88);
+    color: rgb(255, 255, 255) ;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -88,15 +89,10 @@ nav a:hover {
     line-height: 1.5;
 }
 
-.maintext h2 {
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: lighter;
-}
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
 }
 
 h3 {
@@ -108,21 +104,57 @@ h3 {
     display: grid;
 }
 
- .five{
-    background-color:#6e91a3;
-    height: 50px;
+.social-icon{
+    background-color:#85a9bb;
+    height: 40px;
     grid-column: 1 /span 2;
-    width: 100%;
-    margin: 0 0 0 0;
-    padding: 0pt;
 }
-.six{
-   background-color:#587a8b;
-   height: 75px;
-   grid-column: 1 /span 2;
-   width: 100%;
-   margin:-10px 0 0 0;
-   padding: 0pt;
-   text-align: center;
-   font-family: 'Roboto', sans-serif;
+
+span.fb {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 40%;
+    padding: 8px;
+}
+
+span.yt {
+    display: inline-block;
+    font-size: 30px;
+    padding: 8px;
+
+}
+
+span.twt {
+    display: inline-block;
+    font-size: 30px;
+    padding: 8px;
+
+}
+
+span.ig {
+    display: inline-block;
+    font-size: 30px;
+    padding: 8px;
+
+}
+.location{
+    background-color:#63889b;
+    height: 85px;
+    grid-column: 1 /span 2;
+}
+
+.location h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.location h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: -15px;
 }

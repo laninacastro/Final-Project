@@ -2,13 +2,11 @@
 
 body {
     margin: 0;
-    padding: 5px;
-    background: ;
 }
 
 nav {
     width: 100%;
-    height: 80px;
+    height: 75px;
     background: #ffffff; 
 }
 
@@ -30,15 +28,15 @@ li {
 nav a {
     display: block;
     padding: 30px 0px;
-    margin-left: 150px;
-    color:#475F6B;
+    margin-left: 155px;
+    color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
     text-decoration:none;
 }
 
 nav a:hover {
-    background: #a7b2b4;
+    background: #AEB5BF;
     transition: 0.5s;
 }
 
@@ -47,85 +45,118 @@ nav a:hover {
 }
 
 .heroimage img{
-    margin: 15px 0px 0px 0px;
-    height: 150px;
+    margin-bottom: -55px;
+    height: 105px;
     width: 100%;
     }
 
 .intouch{
     position: absolute;
-    bottom: 350px;
-    left: 5%;
+    bottom: 410px;
+    left: 1%;
     font-size: 40px;
-    font-weight: bold;
-    color: rgb(20, 58, 88);
+    font-weight: lighter;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin-top: 40px;
+    background-color:#98b9ca;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
     font-family: 'Montserrat', sans-serif;
 }
 
 .maingrid {
-    position: relative;
+    display: grid;
+    grid-template-columns: 585px 600px;
+    grid-gap: 10px;    
+    justify-content:space-evenly;
 }
 
-.help{
-    position: absolute;
-    z-index: 2;
-    width: 475px;
-    height: 345px;
+.maingrid iframe{
+    height: 400px;
+    width: 100%;
+}
+
+.contactform{
     background-color:#9cbdce;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-}
+    
 
-.help h2{
-    margin: 10px 5px 0 0;
-    text-align: left;
-    margin-left: 15px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-.form{
-    position: absolute;
-    z-index: 1;
-    width: 700px;
-    height: 325px;
-    margin-left: 200px;
-    border-color:#2c4e5f;
-    border-style: solid;
-}
-
-.maingrid h4 {
-    position: relative;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    margin-top: 35px;
-    margin-left: 485px;
 }
 
 .footergrid {
     display: grid;
-    margin-top: 500px;
+    padding-top: 20px;
 }
 
- .socials{
-    background-color:#6e91a3;
-    height: 50px;
+.social-icon{
+    background-color:#85a9bb;
+    height: 40px;
     grid-column: 1 /span 2;
-    width: 100%;
-    margin: 0 0 0 0;
+}
+
+span.fb {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 40%;
+    padding: 8px;
+}
+
+span.yt {
+    display: inline-block;
+    font-size: 30px;
+    padding: 8px;
+
+}
+
+span.twt {
+    display: inline-block;
+    font-size: 30px;
+    padding: 8px;
+
+}
+
+span.ig {
+    display: inline-block;
+    font-size: 30px;
+    padding: 8px;
+
+}
+
+.location{
+    background-color:#63889b;
+    height: 85px;
+    grid-column: 1 /span 2;
     padding: 0pt;
-}
-.footer{
-   background-color:#587a8b;
-   height: 75px;
-   grid-column: 1 /span 2;
-   width: 100%;
-   margin:-10px 0 0 0;
-   padding: 0pt;
-   text-align: center;
-   font-family: 'Roboto', sans-serif;
-}
+ }
+ 
+  .description {
+     background-color:#c8d8e0;
+     border: #475F6B;
+     border-style: groove;
+     text-align: left;
+     font-family: 'Roboto', sans-serif;
+ }
+ 
+ h4{
+     font-family: 'Montserrat', sans-serif;
+     font-size: 16px;
+     font-weight: lighter;
+     text-align: center;
+     letter-spacing: 2px;
+ }
+ h3{
+     font-family: 'Montserrat', sans-serif;
+     font-size: 16px;
+     font-weight: lighter;
+     text-align: center;
+     letter-spacing: 2px;
+     margin-top: -15px;
+ }
   
   
  
