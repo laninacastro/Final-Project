@@ -31,7 +31,6 @@ nav a {
     margin-left: 250px;
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
     text-decoration:none;
 }
 
@@ -48,7 +47,7 @@ nav a:hover {
 
 .ODTraining{
     position: absolute;
-    bottom: 725px;
+    bottom: 730px;
     left: 1%;
     font-size: 40px;
     font-weight: lighter;
@@ -66,12 +65,13 @@ nav a:hover {
     font-size: 15px;
     font-weight: lighter;
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 50px;
+    float:right;
 }
 
 form {
     margin-top: 50px;
-    margin-left: 30%;
+    margin-left: 25%;
     color:#121213;
     padding: 16px 20px;
     border: none;

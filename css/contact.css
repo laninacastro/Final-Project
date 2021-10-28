@@ -31,7 +31,6 @@ nav a {
     margin-left: 250px;
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
     text-decoration:none;
 }
 
@@ -49,7 +48,7 @@ nav a:hover {
 .intouch{
     position: absolute;
     bottom: 725px;
-    left: 1%;
+    left: 20px;
     font-size: 40px;
     font-weight: lighter;
     padding: 5px;
@@ -59,7 +58,7 @@ nav a:hover {
 h1 {
     margin-top: 40px;
     background-color:#98b9ca;
-    padding: 10px;
+    padding: 20px;
     font-size: 20px;
     font-weight: lighter;
     color: black;
@@ -69,8 +68,9 @@ h1 {
 .maingrid {
     display: grid;
     padding: 45px;
-    grid-template-columns: 600px 600px;
-    grid-gap: 10px;    
+    grid-template-columns: 750px 750px;
+    grid-gap: 10px;
+    column-gap: 15px;    
     justify-content:space-evenly;
 }
 
@@ -83,7 +83,7 @@ h1 {
 input[type=text], select {
     width: 100%;
     padding: 8px 10px;
-    margin: 8px -5px;
+    margin: 20px -5px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -103,7 +103,7 @@ input[type=submit] {
 }
 
   .maingrid iframe{
-    height: 400px;
+    height: 100%;
     width: 100%;
 }
 

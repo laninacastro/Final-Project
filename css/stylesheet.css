@@ -32,7 +32,6 @@ nav a {
     margin-left: 250px;
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
     text-decoration:none;
 }
 
@@ -44,7 +43,7 @@ nav a:hover {
 .maingrid {
     display: grid;
     grid-template-columns: 1000px 535px;
-    grid-template-rows: 650px 20px;
+    grid-template-rows: 655px 35px;
     row-gap: 10px;
     column-gap: 15px;
     padding: 15px;
@@ -60,9 +59,12 @@ nav a:hover {
     background-color: #080808;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    margin-top: -655px;
+    height: 50px;
+    margin-top: -660px;
     font-size: 25px;
     padding: 5px;
+    text-align: center;
+    font-size: 40px;
 }
 
 .two {
